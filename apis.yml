@@ -1,8 +1,27 @@
 aid: vitalgen
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vitalgen.png
 name: Vitalgen
-description: 'Vitalgen is a company surfaced as a portfolio company of idg-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Shanghai Vitalgen BioPharma Co., Ltd. (Vitalgen), founded in March 2020 and headquartered
+  in Shanghai, China, translates cutting-edge gene delivery and gene editing techniques into clinically
+  effective treatments for patients with unmet medical needs. Vitalgen operates a GMP-compliant commercial
+  production platform built on its proprietary ViCas CRISPR/Cas editing tools, ViLNP lipid nanoparticles,
+  and ViVec AAV capsids, developing gene therapies for hereditary diseases and neurodegenerative disorders
+  across a pipeline that includes Bietti Crystalline Dystrophy (VGR-R01), AADC Deficiency, Parkinson''s
+  Disease, Gaucher Disease, and Glutaric Acidemia Type I. Several candidates have entered clinical trials
+  and secured U.S. FDA Orphan Drug Designations and an EMA PRIME designation. Surfaced as a portfolio
+  company of IDG Capital and added to the API Evangelist network. The company publishes a corporate
+  marketing website only and exposes no public API, developer portal, or machine-readable surface.'
 url: https://raw.githubusercontent.com/api-evangelist/vitalgen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Gene Therapy
+- Gene Editing
+- Biopharmaceutical
+- Biotechnology
+- CRISPR
 apis: []
+common:
+- type: Website
+  url: http://www.vitalgen.com/en/
+- type: Blog
+  url: http://www.vitalgen.com/en/index.php?c=category&id=4
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
